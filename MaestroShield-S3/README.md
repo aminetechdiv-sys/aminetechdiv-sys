@@ -1,270 +1,379 @@
 <div align="center">
-  <h1>🛡️ MaestroShield-S3</h1>
-  <p><b>Advanced Wireless RF Auditing & Security Development Platform</b></p>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2000&pause=1000&color=1E90FF&center=true&vCenter=true&width=900&lines=⚡+MaestroShield-S3;Advanced+Wireless+Cyber-Development+Board;🛡️+Security+%7C+RF+Analysis+%7C+Hardware+Innovation" alt="MaestroShield-S3" />
+</div>
+
+<div align="center">
   <p>
-    <img src="https://img.shields.io/badge/Status-Active-2C3E50?style=for-the-badge"/>
-    <img src="https://img.shields.io/badge/Version-1.0.0-1A5276?style=for-the-badge"/>
-    <img src="https://img.shields.io/badge/License-MIT-1A3A3A?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/Hardware-OSHW-2C3E50?style=for-the-badge&logo=open-source-initiative&logoColor=white"/>
+    <img src="https://img.shields.io/badge/License-MIT-1A5276?style=for-the-badge&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Status-Production--Ready-2C3E50?style=for-the-badge"/>
+  </p>
+  <p>
+    <img src="https://img.shields.io/badge/ESP32--S3-N16R8-3E5C76?style=for-the-badge&logo=espressif&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Wireless-Multi--Band-1A3A3A?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/Security-Hardware--Grade-1A5276?style=for-the-badge"/>
   </p>
 </div>
 
 ---
 
-## 📌 Overview
+## 🎯 Overview
 
-**MaestroShield-S3** is a professional-grade, open-source wireless development platform engineered for:
+**MaestroShield-S3** is a cutting-edge, open-source multi-protocol wireless development platform engineered for professionals in:
 
-- 🔐 **RF Security Auditing** - Comprehensive wireless protocol testing
-- 📡 **Signal Analysis** - Multi-band frequency monitoring
-- 🛡️ **Hardware Security Research** - Cryptographic implementations
-- 🚀 **IoT Prototyping** - Advanced embedded systems development
-- 🔬 **Penetration Testing** - Wireless security assessments
+- 🔐 **Cybersecurity Auditing** - Advanced RF security testing
+- 📡 **Wireless Analysis** - Multi-band RF signal monitoring & capture
+- 🛡️ **Hardware Research** - Penetration testing and vulnerability assessment
+- 🚀 **IoT Development** - Professional-grade embedded prototyping
+- 🔬 **Security Research** - Hardware security evaluation and cryptography
 
----
-
-## ⚡ Key Features
-
-| Feature | Details |
-|---------|---------|
-| **Processor** | ESP32-S3 (Dual-Core Xtensa 240MHz) |
-| **Memory** | 16MB Flash + 8MB PSRAM |
-| **Display** | 2.8" SPI TFT Touchscreen (320x240) |
-| **Wireless** | WiFi 6, BLE 5.3, Sub-GHz Transceiver |
-| **Power** | 3000mAh Battery + Management System |
-| **Expansion** | Modular Pogo-Pin Shields |
-| **Security** | Hardware Crypto (AES-256), Secure Boot |
-| **PCB** | Multi-layer RF-optimized design |
+Built on the **ESP32-S3-WROOM-1 (N16R8)** processor - the pocket-sized powerhouse that bridges digital security evaluation with multi-band RF capabilities.
 
 ---
 
-## 🚀 Quick Start
+## ⚡ Core Specifications
 
-### Prerequisites
-- Arduino IDE 2.0+ or ESP-IDF
-- USB-C Cable
-- Basic knowledge of embedded systems
-
-### Installation
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/aminetechdiv-sys/MaestroShield-S3.git
-   cd MaestroShield-S3
-   ```
-
-2. **Install Dependencies**
-   ```bash
-   # Using Arduino IDE
-   # Add ESP32 board: https://dl.espressif.com/dl/package_esp32_index.json
-   
-   # Using ESP-IDF
-   git clone https://github.com/espressif/esp-idf.git
-   cd esp-idf
-   ./install.sh
-   ```
-
-3. **Upload Firmware**
-   ```bash
-   # Arduino IDE: Select Board "ESP32-S3 Dev Module"
-   # Then: Sketch → Upload
-   
-   # or ESP-IDF:
-   idf.py -p /dev/ttyUSB0 flash monitor
-   ```
-
-4. **Test the Board**
-   - Check touchscreen display
-   - Verify WiFi connectivity
-   - Test LED indicators
+<div align="center">
+  <table style="background-color: #0F1419; border: 2px solid #1A5276; width: 100%;">
+    <tr style="background-color: #1A5276; color: #E8F4F8;">
+      <td align="center" width="33%"><b>🔧 PROCESSOR</b></td>
+      <td align="center" width="33%"><b>📡 WIRELESS</b></td>
+      <td align="center" width="33%"><b>🔐 SECURITY</b></td>
+    </tr>
+    <tr style="background: #0F1419; color: #B8C6DB;">
+      <td align="center">
+        <b style="color: #4A90E2;">ESP32-S3-WROOM-1</b><br/>
+        <small>Dual-Core Xtensa<br/>240MHz CPU<br/>16MB Flash + 8MB PSRAM</small>
+      </td>
+      <td align="center">
+        <b style="color: #4A90E2;">Multi-Band RF</b><br/>
+        <small>WiFi 6 (802.11ax)<br/>Bluetooth 5.3 LE<br/>Sub-GHz Transceiver</small>
+      </td>
+      <td align="center">
+        <b style="color: #4A90E2;">Hardware Crypto</b><br/>
+        <small>AES-256 Acceleration<br/>Secure Boot Ready<br/>TLS 1.3 Support</small>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
-## 📚 Documentation
+## 💎 Key Features
 
-### User Guides
-- [Getting Started Guide](docs/GETTING_STARTED.md)
-- [Hardware Setup](docs/HARDWARE.md)
-- [Firmware Installation](docs/FIRMWARE.md)
-- [RF Auditing Guide](docs/RF_AUDITING.md)
-- [Cryptography Guide](docs/CRYPTOGRAPHY.md)
+<div align="center">
+  <table style="background-color: #0F1419; border: 2px solid #1A5276;">
+    <tr style="background-color: #1A3A3A; color: #E8F4F8;">
+      <td colspan="4" align="center"><b>🌟 PROFESSIONAL-GRADE CAPABILITIES 🌟</b></td>
+    </tr>
+    <tr style="background: #0F1419;">
+      <td align="center" style="color: #4A90E2; padding: 12px;">
+        <b>🛡️ Multi-Protocol</b><br/>
+        <small style="color: #B8C6DB;">WiFi • BLE • Sub-GHz<br/>Complete Auditing Stack</small>
+      </td>
+      <td align="center" style="color: #4A90E2; padding: 12px;">
+        <b>📊 RF Analysis</b><br/>
+        <small style="color: #B8C6DB;">Signal Detection<br/>Frequency Scanning</small>
+      </td>
+      <td align="center" style="color: #4A90E2; padding: 12px;">
+        <b>⚙️ Real-Time</b><br/>
+        <small style="color: #B8C6DB;">Low Latency<br/>High Throughput</small>
+      </td>
+      <td align="center" style="color: #4A90E2; padding: 12px;">
+        <b>🔐 Cryptography</b><br/>
+        <small style="color: #B8C6DB;">Hardware Accel<br/>Multiple Algos</small>
+      </td>
+    </tr>
+  </table>
+</div>
 
-### Technical Resources
-- [Schematic Diagram](hardware/MaestroShield-S3.sch)
-- [PCB Layout](hardware/MaestroShield-S3.kicad_pcb)
-- [Component BOM](hardware/BOM.csv)
-- [API Reference](docs/API_REFERENCE.md)
-- [Pinout Diagram](docs/PINOUT.md)
+---
+
+## 🖥️ Hardware Architecture
+
+| Component | Specification | Performance |
+|-----------|---------------|-------------|
+| **Processor** | ESP32-S3-WROOM-1 N16R8 | 240MHz Dual-Core Xtensa |
+| **Memory** | Flash + PSRAM | 16MB + 8MB (24MB Total) |
+| **Display** | 2.8" SPI TFT | 320x240 IPS Touchscreen |
+| **WiFi** | 802.11ax | WiFi 6 Ready |
+| **Bluetooth** | BLE 5.3 | 240m Range |
+| **Sub-GHz** | Transceiver | Custom Protocols |
+| **Battery** | 3000mAh | Smart Management |
+| **Expansion** | Pogo-Pin Shields | Modular Ecosystem |
+| **Security** | Hardware Accelerated | AES-256, Secure Boot |
+| **PCB** | Multi-Layer RF | Optimized Layout |
+
+---
+
+## 🚀 Perfect For
+
+<div align="center">
+  <table style="background-color: #0F1419; border: 2px solid #1A5276; width: 100%;">
+    <tr style="background-color: #1A5276; color: #E8F4F8;">
+      <td align="center" width="50%"><b>👥 WHO USES IT?</b></td>
+      <td align="center" width="50%"><b>🎯 USE CASES</b></td>
+    </tr>
+    <tr style="background: #0F1419; border-bottom: 1px solid #2C3E50;">
+      <td style="color: #4A90E2; padding: 12px;">
+        ✅ Security Researchers<br/>
+        ✅ Penetration Testers<br/>
+        ✅ Hardware Engineers<br/>
+        ✅ IoT Developers
+      </td>
+      <td style="color: #4A90E2; padding: 12px;">
+        ✅ WiFi/BLE Auditing<br/>
+        ✅ RF Signal Analysis<br/>
+        ✅ Vulnerability Testing<br/>
+        ✅ Firmware Research
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## 📚 Documentation & Resources
+
+### Getting Started
+- 🚀 [Quick Start Guide](docs/GETTING_STARTED.md)
+- 📖 [Installation Instructions](docs/INSTALLATION.md)
+- 🔧 [Hardware Setup](docs/HARDWARE.md)
+
+### Technical Documentation
+- 📋 [Complete API Reference](docs/API_REFERENCE.md)
+- 🔌 [Pinout Diagram](docs/PINOUT.md)
+- 📊 [Schematic & PCB Files](hardware/)
+
+### Guides & Tutorials
+- 🛡️ [RF Security Auditing](docs/RF_AUDITING.md)
+- 🔐 [Cryptography Implementation](docs/CRYPTOGRAPHY.md)
+- 📡 [WiFi/BLE Analysis](docs/WIRELESS_ANALYSIS.md)
 
 ### Example Projects
-- [WiFi Sniffer](examples/wifi_sniffer/)
-- [BLE Scanner](examples/ble_scanner/)
-- [RF Analysis Tool](examples/rf_analyzer/)
-- [Cryptography Demo](examples/crypto_demo/)
+- 📡 [WiFi Sniffer](examples/wifi_sniffer/)
+- 🔍 [BLE Scanner](examples/ble_scanner/)
+- 📊 [RF Analyzer](examples/rf_analyzer/)
 
 ---
 
 ## 🔐 Security Features
 
-### Hardware Security
-- ✅ **Hardware Crypto Acceleration** - AES-256 operations
-- ✅ **Secure Boot** - Verified firmware loading
-- ✅ **Key Management** - Secure key storage in flash
-- ✅ **Tamper Detection** - Anti-tampering mechanisms
-- ✅ **Access Control** - PIN/Password protection
+### Hardware-Level Protection
+- ✅ **AES-256 Acceleration** - Cryptographic operations
+- ✅ **Secure Boot** - Verified firmware verification
+- ✅ **Hardware Key Storage** - Tamper-resistant
+- ✅ **Side-Channel Protected** - Advanced security architecture
+- ✅ **Anti-Tampering** - Physical security mechanisms
 
 ### Wireless Security
-- ✅ **TLS 1.3 Support** - Modern encryption
-- ✅ **Certificate Management** - Secure credentials
+- ✅ **TLS 1.3** - Modern encryption standard
+- ✅ **Certificate Support** - Secure authentication
 - ✅ **Protocol Analysis** - Security assessment tools
-- ✅ **Penetration Testing** - Authorized security testing
+- ✅ **Penetration Testing** - Authorized security evaluation
 
 ---
 
-## 🛠️ Development
+## 💻 Software Stack
 
-### Building from Source
+### Supported Environments
+<div align="center">
+  <img alt="Arduino" src="https://img.shields.io/badge/Arduino-1A3A3A?style=for-the-badge&logo=arduino&logoColor=4A90E2&labelColor=0F1419"/>
+  <img alt="ESP-IDF" src="https://img.shields.io/badge/ESP--IDF-1A2332?style=for-the-badge&logoColor=4A90E2&labelColor=0F1419"/>
+  <img alt="MicroPython" src="https://img.shields.io/badge/MicroPython-1A3A3A?style=for-the-badge&logoColor=4A90E2&labelColor=0F1419"/>
+  <img alt="PlatformIO" src="https://img.shields.io/badge/PlatformIO-1A2332?style=for-the-badge&logoColor=4A90E2&labelColor=0F1419"/>
+</div>
 
-```bash
-# Clone repository
-git clone https://github.com/aminetechdiv-sys/MaestroShield-S3.git
-cd MaestroShield-S3
-
-# Using ESP-IDF
-source /path/to/esp-idf/export.sh
-idf.py build
-
-# Using Arduino
-# Open in Arduino IDE and compile
-```
-
-### Contributing
-Please see [CONTRIBUTING.md](../CONTRIBUTING.md) for guidelines.
-
-### Code Structure
-```
-MaestroShield-S3/
-├── firmware/
-│   ├── main/           # Main application code
-│   ├── components/     # Reusable components
-│   └── tests/          # Unit tests
-├── hardware/           # PCB design files
-├── examples/           # Example projects
-├── docs/               # Documentation
-└── tools/              # Development tools
-```
+### Programming Languages
+<div align="center">
+  <img alt="C" src="https://img.shields.io/badge/C-1A3A3A?style=for-the-badge&logo=c&logoColor=4A90E2&labelColor=0F1419"/>
+  <img alt="C++" src="https://img.shields.io/badge/C++-1A2332?style=for-the-badge&logo=c%2B%2B&logoColor=4A90E2&labelColor=0F1419"/>
+  <img alt="Python" src="https://img.shields.io/badge/Python-1A3A3A?style=for-the-badge&logo=python&logoColor=4A90E2&labelColor=0F1419"/>
+  <img alt="Assembly" src="https://img.shields.io/badge/Assembly-1A2332?style=for-the-badge&logoColor=4A90E2&labelColor=0F1419"/>
+</div>
 
 ---
 
-## 📊 Technical Specifications
+## ⚡ Performance Metrics
 
-### Power Consumption
-| Mode | Current | Duration |
-|------|---------|----------|
-| Active (WiFi) | 80-120mA | ~30 hours |
-| Active (BLE) | 40-60mA | ~50 hours |
-| Sleep | 10mA | ~300 hours |
-| Deep Sleep | 0.1mA | ~1 month |
-
-### Radio Performance
-| Protocol | Range | Bandwidth | Security |
-|----------|-------|-----------|----------|
-| WiFi 6 | 100m | 40-80MHz | WPA3 |
-| BLE 5.3 | 240m | 1MHz | AES-CCM |
-| Sub-GHz | 500m+ | Variable | Custom |
-
-### Development
-- **Language**: C/C++, MicroPython
-- **OS**: FreeRTOS
-- **IDE Support**: Arduino, VS Code, PlatformIO
-- **Debugger**: JTAG, Serial Monitor
-
----
-
-## 🎓 Learning Resources
-
-### Beginner
-- [Introduction to Embedded Systems](docs/tutorials/intro.md)
-- [ESP32-S3 Basics](docs/tutorials/esp32_basics.md)
-- [First Program: Blink LED](examples/blink_led/)
-
-### Intermediate
-- [WiFi Connectivity](docs/tutorials/wifi.md)
-- [Bluetooth LE Programming](docs/tutorials/ble.md)
-- [Touchscreen Interface](docs/tutorials/touchscreen.md)
-
-### Advanced
-- [RF Security Analysis](docs/tutorials/rf_security.md)
-- [Cryptographic Implementations](docs/tutorials/cryptography.md)
-- [Hardware Optimization](docs/tutorials/optimization.md)
+<div align="center">
+  <table style="background-color: #0F1419; border: 2px solid #1A5276;">
+    <tr style="background-color: #1A5276; color: #E8F4F8;">
+      <td align="center"><b>Power Consumption</b></td>
+      <td align="center"><b>RF Performance</b></td>
+      <td align="center"><b>Storage</b></td>
+    </tr>
+    <tr style="background: #0F1419; color: #B8C6DB;">
+      <td align="center">
+        <small>WiFi: 80-120mA<br/>
+        BLE: 40-60mA<br/>
+        Sleep: 10mA<br/>
+        Deep Sleep: 0.1mA</small>
+      </td>
+      <td align="center">
+        <small>WiFi Range: 100m<br/>
+        BLE Range: 240m<br/>
+        Sub-GHz: 500m+<br/>
+        Real-time Analysis</small>
+      </td>
+      <td align="center">
+        <small>16MB Flash<br/>
+        8MB PSRAM<br/>
+        OTA Updates<br/>
+        External SD Support</small>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
 ## 🤝 Community & Support
 
-### Getting Help
-- 📖 **Documentation**: [Wiki](../../wiki)
-- 💬 **Discussions**: [GitHub Discussions](../../discussions)
-- 🐛 **Issues**: [Report Bugs](../../issues)
-- 📧 **Email**: amine.tech.div@gmail.com
-
-### Community Projects
-Share your projects using MaestroShield-S3:
-- Open an issue with `[PROJECT]` tag
-- Include project description and code
-- Get featured in our showcase!
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## ✨ Acknowledgments
-
-- ESP-IDF community and documentation
-- Arduino project contributors
-- Hardware security researchers
-- Our amazing open-source community
-
----
-
-## 🔗 Related Projects
-
-- [MaestroShield-Hub](../MaestroShield-Hub) - Firmware utilities
-- [RF-Tools](../RF-Tools) - Wireless analysis suite
-- [Crypto-Lib](../Crypto-Lib) - Cryptography library
-
----
-
-## 📞 Contact & Collaboration
-
-### Let's Connect!
+### Get Help
+- 📖 [Documentation Wiki](../../wiki)
+- 💬 [GitHub Discussions](../../discussions)
+- 🐛 [Report Issues](../../issues)
 - 📧 Email: amine.tech.div@gmail.com
-- 🔗 GitHub: [@aminetechdiv-sys](https://github.com/aminetechdiv-sys)
-- 💼 LinkedIn: [Amine Tech](https://linkedin.com/in/amine-tech)
 
-### Collaboration Opportunities
-- 🔬 Research partnerships
-- 🏢 Commercial licensing
-- 📚 Educational programs
-- 🤝 Consulting services
+### Community
+- 🌍 Open-source hardware
+- 🤝 Collaborative development
+- 📚 Shared knowledge base
+- 💡 Community projects showcase
+
+---
+
+## 📦 What's Included
+
+```
+MaestroShield-S3/
+├── firmware/          # Production firmware
+├── hardware/          # PCB schematics & layouts
+├── examples/          # Ready-to-use projects
+├── docs/              # Complete documentation
+├── tools/             # Development utilities
+└── libraries/         # Custom libraries
+```
+
+---
+
+## 🔄 Getting Started in 3 Steps
+
+### 1️⃣ Setup Hardware
+```bash
+Connect MaestroShield-S3 via USB-C
+Verify LED indicators
+Check touchscreen response
+```
+
+### 2️⃣ Install Firmware
+```bash
+# Using Arduino IDE
+Select Board: ESP32-S3 Dev Module
+Choose COM Port
+Upload Sketch
+
+# Using ESP-IDF
+idf.py -p /dev/ttyUSB0 flash monitor
+```
+
+### 3️⃣ Start Developing
+```bash
+Load example projects
+Run WiFi/BLE tests
+Deploy custom code
+```
+
+---
+
+## 📊 Project Status
+
+<div align="center">
+  <table style="background-color: #0F1419; border: 2px solid #1A5276;">
+    <tr style="background-color: #1A5276; color: #E8F4F8;">
+      <td align="center" width="50%"><b>📈 VERSION</b></td>
+      <td align="center" width="50%"><b>✅ STATUS</b></td>
+    </tr>
+    <tr style="background: #0F1419;">
+      <td align="center" style="color: #4A90E2;">v1.0.0 (Current)</td>
+      <td align="center" style="color: #4A90E2;">✅ Production Ready</td>
+    </tr>
+    <tr style="background: #0F1419; border-top: 1px solid #2C3E50;">
+      <td align="center" style="color: #B8C6DB;">Firmware</td>
+      <td align="center" style="color: #B8C6DB;">🔄 Active Development</td>
+    </tr>
+    <tr style="background: #0F1419; border-top: 1px solid #2C3E50;">
+      <td align="center" style="color: #B8C6DB;">Documentation</td>
+      <td align="center" style="color: #B8C6DB;">✅ Comprehensive</td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## 🔗 Quick Links
+
+<div align="center">
+  <a href="https://github.com/aminetechdiv-sys/MaestroShield-S3">
+    <img src="https://img.shields.io/badge/🔗_GITHUB_REPO-1A5276?style=for-the-badge&logoColor=white"/>
+  </a>
+  <a href="../../wiki">
+    <img src="https://img.shields.io/badge/📖_WIKI-1A3A3A?style=for-the-badge&logoColor=white"/>
+  </a>
+  <a href="../../discussions">
+    <img src="https://img.shields.io/badge/💬_DISCUSSIONS-2C3E50?style=for-the-badge&logoColor=white"/>
+  </a>
+  <a href="mailto:amine.tech.div@gmail.com">
+    <img src="https://img.shields.io/badge/📧_CONTACT-1A5276?style=for-the-badge&logoColor=white"/>
+  </a>
+</div>
+
+---
+
+## 💡 Use Cases
+
+### 🔒 Security Professionals
+Conduct comprehensive RF audits and wireless security assessments with industry-standard tools.
+
+### 🏢 Enterprise IoT
+Deploy secure, hardware-backed IoT solutions with cryptographic acceleration.
+
+### 🎓 Education
+Learn embedded systems, wireless protocols, and hardware security in hands-on labs.
+
+### 🔬 Research
+Advance hardware security research with an open, modular development platform.
+
+---
+
+## 📝 License & Attribution
+
+- **License**: MIT License
+- **Hardware**: Open-Source Hardware (OSHW)
+- **Author**: [Amine - Hardware Design Engineer](https://github.com/aminetechdiv-sys)
+- **Community**: Built for the security research community
+
+---
+
+## 🙏 Contributing
+
+We welcome contributions! See [CONTRIBUTING.md](../CONTRIBUTING.md) for guidelines.
 
 ---
 
 <div align="center">
-  <h3>🛡️ Secure Hardware for Everyone 🔐</h3>
-  <p>
+  <h3 style="color: #4A90E2;">🛡️ Secure Hardware for Security Professionals 🔐</h3>
+  <p style="color: #B8C6DB;">
     <img src="https://img.shields.io/github/stars/aminetechdiv-sys/MaestroShield-S3?style=flat-square" alt="Stars"/>
     <img src="https://img.shields.io/github/forks/aminetechdiv-sys/MaestroShield-S3?style=flat-square" alt="Forks"/>
-    <img src="https://img.shields.io/github/issues/aminetechdiv-sys/MaestroShield-S3?style=flat-square" alt="Issues"/>
+    <img src="https://img.shields.io/github/watchers/aminetechdiv-sys/MaestroShield-S3?style=flat-square" alt="Watchers"/>
   </p>
 </div>
 
 ---
 
 <div align="center">
-  <p>Made with ❤️ by <a href="https://github.com/aminetechdiv-sys">Amine</a></p>
-  <p>Last Updated: June 2026</p>
+  <p style="color: #B8C6DB;">Made with ❤️ by <a href="https://github.com/aminetechdiv-sys">Amine</a></p>
+  <p style="color: #7F8C8D;"><i>Last Updated: June 2026 • Version 1.0.0</i></p>
 </div>
